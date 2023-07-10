@@ -1,6 +1,6 @@
-!pip install pyvis
-!pip install streamlit
-!pip install nxviz
+pip install pyvis
+pip install streamlit
+pip install nxviz
 
 
 from pyvis.network import Network
