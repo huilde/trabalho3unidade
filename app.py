@@ -1,8 +1,17 @@
+!pip install pyvis
+!pip install streamlit
+!pip install nxviz
+
+
+from pyvis.network import Network
+import networkx as nx
+import pandas as pd
+from IPython.display import display, HTML
+import matplotlib.pyplot as plt
+import nxviz as nv
 import streamlit as st
 import streamlit.components.v1 as components
-import pandas as pd
-import networkx as nx
-from pyvis.network import Network
+from urllib.parse import unquote
 
 # Read dataset (CSV)
 
