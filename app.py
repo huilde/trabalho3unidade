@@ -1,7 +1,3 @@
-pip install pyvis
-pip install streamlit
-pip install nxviz
-
 
 from pyvis.network import Network
 import networkx as nx
